@@ -269,4 +269,21 @@ video {
 
 .footer-top {
   display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.support-pay {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+}
+
+.install-information {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.install-chplay a img {
+  width: 120px;
 }
