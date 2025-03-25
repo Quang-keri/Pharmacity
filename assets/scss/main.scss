@@ -265,11 +265,14 @@ video {
   background-color: #ebebeb;
   width: 100%;
   height: auto;
+  border-top: 8px solid #1b52a2;
+  padding: 20px 30px;
 }
 
 .footer-top {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 20px;
 }
 
 .support-pay {
@@ -286,4 +289,9 @@ video {
 
 .install-chplay a img {
   width: 120px;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
 }
