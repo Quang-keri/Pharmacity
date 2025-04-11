@@ -332,6 +332,13 @@ ul {
   margin-top: 10px;
   margin-bottom: 5px;
 }
+//info-phamacity
+.infor-phamarcity {
+  margin-right: 40px;
+  margin-left: 0px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
 
 //footer
 .footer {
@@ -346,6 +353,10 @@ ul {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin-bottom: 20px;
+}
+
+.support-pay-title {
+  margin-top: 10px;
 }
 
 .support-pay {
@@ -367,4 +378,17 @@ ul {
 .footer-bottom-content {
   display: flex;
   justify-content: space-between;
+}
+
+.social-container {
+  margin: 0;
+}
+
+.social {
+  padding-bottom: 16px;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
 }

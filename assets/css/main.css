@@ -412,6 +412,13 @@ ul {
   margin-bottom: 5px;
 }
 
+.infor-phamarcity {
+  margin-right: 40px;
+  margin-left: 0px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
 .footer {
   background-color: #ebebeb;
   width: 100%;
@@ -424,6 +431,10 @@ ul {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin-bottom: 20px;
+}
+
+.support-pay-title {
+  margin-top: 10px;
 }
 
 .support-pay {
@@ -453,4 +464,19 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.social-container {
+  margin: 0;
+}
+
+.social {
+  padding-bottom: 16px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
 }
