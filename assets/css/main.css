@@ -412,6 +412,32 @@ ul {
   margin-bottom: 5px;
 }
 
+.health-section {
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.service-higlight {
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.service-higlight-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .infor-phamarcity {
   margin-right: 40px;
   margin-left: 0px;

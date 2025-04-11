@@ -332,6 +332,29 @@ ul {
   margin-top: 10px;
   margin-bottom: 5px;
 }
+
+//health-section
+.health-section {
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+//service-higlight
+.service-higlight {
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.service-higlight-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 //info-phamacity
 .infor-phamarcity {
   margin-right: 40px;
