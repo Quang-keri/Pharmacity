@@ -306,13 +306,31 @@ ul {
 }
 //menu
 .menu {
-  margin: 10px;
+  width: 100%;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
+
 .menu-list {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(2, auto);
   font-size: 15px;
+}
+.menu-list div {
+  width: 60px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+.menu-list-img img {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 //footer
