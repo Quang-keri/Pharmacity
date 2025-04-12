@@ -333,6 +333,47 @@ ul {
   margin-bottom: 5px;
 }
 
+//season disease
+.season-disease-group {
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.season-disease-group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.season-disease-group-body {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2);
+  gap: 5px;
+}
+
+.season-disease-group-body-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.season-disease-group-body-img {
+  flex: 4;
+}
+
+.season-disease-group-body-content-title {
+  flex: 6;
+  font-size: 14px;
+}
+.season-disease-group-body-img img {
+  width: 80px;
+  height: 80px;
+}
+
 //health-section
 .health-section {
   margin-right: 40px;
