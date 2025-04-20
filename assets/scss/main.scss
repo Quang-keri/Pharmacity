@@ -267,7 +267,7 @@ ul {
 ///oulrowsel
 .silde-show {
   margin: 10px;
-  position: relative;
+
   display: grid;
   grid-template-columns: 800px 1fr;
   grid-template-rows: repeat(2);
@@ -276,6 +276,20 @@ ul {
 .owl-carousel {
   position: relative;
   grid-row: 1 / span 2;
+}
+
+.customPrevBtn {
+  position: absolute;
+  left: 10px;
+  top: 100px;
+  z-index: 2;
+}
+
+.customNextBtn {
+  position: absolute;
+  right: 10px;
+  top: 100px;
+  z-index: 2;
 }
 
 .right-top {
