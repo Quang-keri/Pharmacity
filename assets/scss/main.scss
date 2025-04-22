@@ -319,12 +319,22 @@ ul {
   background: #0079ba;
 }
 
+//1.Hành trang vi vu đón Lễ
+//2.Tủ thuốc gia đình - Giao nhanh 2H
+//3.Top bán chạy toàn quốc
+//4.Mẹ khỏe bé vui - Giảm đến 50%
+//5.Sản phẩm mới tại Pharmacity
+
+// 5 mục trên lấy css của super-deal-online
 //super-deal-online
+
 .super-deal-online {
   margin-right: 30px;
   margin-left: 30px;
   padding-right: 1rem;
   padding-left: 1rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .super-deal-online-header {
@@ -333,6 +343,9 @@ ul {
   align-items: center;
 }
 
+.super-deal-online-header h2 {
+  font-weight: 600;
+}
 .super-deal-online-content {
   margin: 10px;
 }
@@ -390,6 +403,12 @@ ul {
   padding: 8px 16px;
   border-radius: 10px;
 }
+
+.btn-choose-item:hover {
+  background-color: #113a76;
+  cursor: pointer;
+}
+
 //menu
 .menu {
   width: 100%;
