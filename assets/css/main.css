@@ -395,6 +395,81 @@ ul {
   background: #0079ba;
 }
 
+.super-deal-online {
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.super-deal-online-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.super-deal-online-content {
+  margin: 10px;
+}
+
+.super-deal-online-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+
+.super-deal-online-list-item {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.super-deal-online-img img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.super-deal-online-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.super-deal-online-delete-price {
+  display: block;
+  height: 20px;
+}
+
+.super-deal-online-price {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.btn-choose-item {
+  width: 160px;
+  background-color: #1a51a2;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
 .menu {
   width: 100%;
   margin-right: 50px;
@@ -500,6 +575,18 @@ ul {
 }
 
 .service-higlight-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service-higlight-list-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
