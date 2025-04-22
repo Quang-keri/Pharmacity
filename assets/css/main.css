@@ -452,11 +452,16 @@ ul {
 .super-deal-online-delete-price {
   display: block;
   height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #a8a8a8;
 }
 
 .super-deal-online-price {
   display: block;
   margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .btn-choose-item {
