@@ -56,19 +56,24 @@ owl.owlCarousel({
 var owl = $(".owl-carousel");
 owl.owlCarousel();
 var prevBtn = document.querySelector(".customPrevBtn");
-
+var nextBtn = document.querySelector(".customNextBtn");
 prevBtn.style.display = "none";
 var isPress = false;
+
+// logic 1
+// ấn lần 1 hiện lên cả 2 nút
+// ấn tiếp lần 2 hiện cả 2 nút
+// ấn back về lần 1 hiện 2 nút
+// ấn back lần 2 về hiện  1 nút next
 $(".customNextBtn").click(function () {
   owl.trigger("next.owl.carousel");
   isPress = true;
+
   if (isPress === true) {
     prevBtn.style.display = "block";
   }
 });
 
 $(".customPrevBtn").click(function () {
-  // With optional speed parameter
-  // Parameters has to be in square bracket '[]'
   owl.trigger("prev.owl.carousel", [300]);
 });

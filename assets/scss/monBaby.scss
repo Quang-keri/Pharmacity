@@ -252,12 +252,6 @@ ul {
 }
 
 //body
-.container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 5px;
-}
 
 .neutral {
   background-color: #ececec;
@@ -275,6 +269,10 @@ ul {
 }
 
 ////product
+.product {
+  margin-left: 20px;
+}
+
 .product-list {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
