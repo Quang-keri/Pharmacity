@@ -243,16 +243,613 @@
       </div>
     </div>
 
-    <div class=""></div>
+    <div class="line"></div>
 
     <div class="row medicine-list">
       <div
-        class="col col-lg-2 col-md-3 d-sm-none"
-        style="border: 1px solid black"
+        class="col col-lg-2 col-md-3 d-none d-md-block medicine-content-left"
       >
-    
+        <div>
+          <p>Bộ lọc</p>
+          <p><a href="#">Thiết lập lại</a></p>
+        </div>
+
+        <form action="#">
+          <p>Khoảng giá</p>
+          <input
+            type="number"
+            name="min-price-medicine"
+            class="min-price-medicine"
+            placeholder="tối thiểu"
+          />
+          <input
+            type="number"
+            name="max-price-medicine"
+            class="max-price-medicine"
+            placeholder="tối đa"
+          />
+          <input type="submit" value="Áp dụng" /><br />
+          <input
+            type="radio"
+            id="price-1"
+            name="price-medicine"
+            value="dưới 100000"
+          />
+          <label for="price-1">Dưới 100.000 <u>đ</u></label>
+          <br />
+
+          <input
+            type="radio"
+            id="price-2"
+            name="price-medicine"
+            value="100000-300000"
+          />
+          <label for="price-2">100.000<u>đ</u> - 300.000<u>đ</u></label>
+          <br />
+
+          <input
+            type="radio"
+            id="price-3"
+            name="price-medicine"
+            value="300000-500000"
+          />
+          <label for="price-3">300.000<u>đ</u> - 500.000<u>đ</u></label>
+          <br />
+
+          <input
+            type="radio"
+            id="price-4"
+            name="price-medicine"
+            value="trên 500000"
+          />
+          <label for="price-4">Trên 500.000<u>đ</u></label>
+        </form>
+        <p>Thương hiệu</p>
+        <form action="#">
+          <input type="text" placeholder="nhập tên thương hiệu" />
+          <input type="checkbox" name="" /> CÔNG TY TNHH DƯỢC MỸ PHẨM THÁI NHÂN
+          <br />
+          <input type="checkbox" name="" /> Công ty TNHH Dược Phẩm Quốc Tế Năm
+          Sao<br />
+          <input type="checkbox" name="" /> Siu Guan<br />
+          <input type="checkbox" name="" />Abbott<br />
+          <input type="checkbox" name="" />Abbott Laboratories <br />
+        </form>
+      </div>
+      <div class="col col-lg-10 col-md-9 col-sm-12 medicine-content-right">
+        <div>
+          <p>Sắp xếp theo</p>
+          <button>Giá giảm dần</button>
+          <button>Giá tăng dần</button>
+        </div>
+        <div class="super-deal-online">
+          <div class="super-deal-online-header">
+            <h2>Siêu Deals Online</h2>
+            <p><a href="#">Xem thêm</a></p>
+          </div>
+
+          <div class="super-deal-online-list">
+            <div class="super-deal-online-list-item">
+              <div class="super-deal-online-img">
+                <img
+                  src="https://production-cdn.pharmacity.io/digital/425x425/plain/e-com/images/promotion_sku_images/20250415030416-0-P28363.png?versionId=.JDmd3agcpAyANoNue.qo7Tn8mUPEiD1"
+                  alt=""
+                />
+              </div>
+              <div class="super-deal-online-content">
+                <p class="super-deal-online-title">
+                  Thực phẩm bảo vệ sức khỏe Gastro Care (Hộp 60 viên)
+                </p>
+                <del class="super-deal-online-delete-price"></del>
+                <span class="super-deal-online-price"
+                  >990.000 <u>đ</u>/hộp</span
+                >
+                <button type="button" class="btn-choose-item">
+                  Chọn sản phẩm
+                </button>
+              </div>
+            </div>
+            <div class="super-deal-online-list-item">
+              <div class="super-deal-online-img">
+                <img
+                  src="https://production-cdn.pharmacity.io/digital/425x425/plain/e-com/images/promotion_sku_images/20250415060620-5-P19854.png?versionId=.eFiTuV519.fcOSqieGzVk6ioj4jg05Q"
+                  alt=""
+                />
+              </div>
+              <div class="super-deal-online-content">
+                <p class="super-deal-online-title">
+                  Nước uống bổ sung collagen Nucos Spa 10.000 hỗ trợ tăng cường
+                  khả năng chống oxy hóa (10 chai)
+                </p>
+                <del class="super-deal-online-delete-price">1.790.000</del>
+                <span class="super-deal-online-price"
+                  >1.432.000 <u>đ</u>/hộp</span
+                >
+                <button type="button" class="btn-choose-item">
+                  Chọn sản phẩm
+                </button>
+              </div>
+            </div>
+            <div class="super-deal-online-list-item">
+              <div class="super-deal-online-img">
+                <img
+                  src="https://production-cdn.pharmacity.io/digital/425x425/plain/e-com/images/promotion_sku_images/20250415060620-9-P18116.png?versionId=GsHzaRXD0jxur1pAMmYRuLlFxjlRDlAZ"
+                  alt=""
+                />
+              </div>
+              <div class="super-deal-online-content">
+                <p class="super-deal-online-title">
+                  Khẩu trang y tế 3 lớp màu xanh Pharmacity bảo vệ khỏi vi
+                  khuẩn, khói và bụi mịn (50 cái/hộp)
+                </p>
+                <del class="super-deal-online-delete-price"></del>
+                <span class="super-deal-online-price">59.000 <u>đ</u>/hộp</span>
+                <button type="button" class="btn-choose-item">
+                  Chọn sản phẩm
+                </button>
+              </div>
+            </div>
+            <div class="super-deal-online-list-item">
+              <div class="super-deal-online-img">
+                <img
+                  src="https://production-cdn.pharmacity.io/digital/425x425/plain/e-com/images/promotion_sku_images/20250415060620-2-P25354.png?versionId=rgoL6bqvn8kY1WwyK9ZRKxAP6BYniTzj"
+                  alt=""
+                />
+              </div>
+              <div class="super-deal-online-content">
+                <p class="super-deal-online-title">
+                  Dung Dịch nhỏ mắt VROHTO Mineral Tear giữ ẩm và bổ sung khoáng
+                  chất (Chai 13ml)
+                </p>
+                <del class="super-deal-online-delete-price">62.000 ₫</del>
+                <span class="super-deal-online-price">52.700 <u>đ</u>/hộp</span>
+                <button type="button" class="btn-choose-item">
+                  Chọn sản phẩm
+                </button>
+              </div>
+            </div>
+            <div class="super-deal-online-list-item">
+              <div class="super-deal-online-img">
+                <img
+                  src="https://production-cdn.pharmacity.io/digital/425x425/plain/e-com/images/promotion_sku_images/20250415030351-0-P23396.png?versionId=8Ig4_Vl7bBeJEO61qH.D60MRp1kWw14J"
+                  alt=""
+                />
+              </div>
+              <div class="super-deal-online-content">
+                <p class="super-deal-online-title">
+                  Tinh chất cấp ẩm, cải thiện nếp nhăn L'oreal Revitalift 1.5%
+                  Hyaluronic Acid Serum (Chai 30ml)
+                </p>
+                <del class="super-deal-online-delete-price">499.000 ₫</del>
+                <span class="super-deal-online-price"
+                  >309.000 <u>đ</u>/hộp</span
+                >
+                <button type="button" class="btn-choose-item">
+                  Chọn sản phẩm
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="super-deal-online">
+          <div class="super-deal-online-header">
+            <h2>Siêu Deals Online</h2>
+            <p><a href="#">Xem thêm</a></p>
+          </div>
+
+          <div class="super-deal-online-list">
+            <div class="super-deal-online-list-item">
+              <div class="super-deal-online-img">
+                <img
+                  src="https://production-cdn.pharmacity.io/digital/425x425/plain/e-com/images/promotion_sku_images/20250415030416-0-P28363.png?versionId=.JDmd3agcpAyANoNue.qo7Tn8mUPEiD1"
+                  alt=""
+                />
+              </div>
+              <div class="super-deal-online-content">
+                <p class="super-deal-online-title">
+                  Thực phẩm bảo vệ sức khỏe Gastro Care (Hộp 60 viên)
+                </p>
+                <del class="super-deal-online-delete-price"></del>
+                <span class="super-deal-online-price"
+                  >990.000 <u>đ</u>/hộp</span
+                >
+                <button type="button" class="btn-choose-item">
+                  Chọn sản phẩm
+                </button>
+              </div>
+            </div>
+            <div class="super-deal-online-list-item">
+              <div class="super-deal-online-img">
+                <img
+                  src="https://production-cdn.pharmacity.io/digital/425x425/plain/e-com/images/promotion_sku_images/20250415060620-5-P19854.png?versionId=.eFiTuV519.fcOSqieGzVk6ioj4jg05Q"
+                  alt=""
+                />
+              </div>
+              <div class="super-deal-online-content">
+                <p class="super-deal-online-title">
+                  Nước uống bổ sung collagen Nucos Spa 10.000 hỗ trợ tăng cường
+                  khả năng chống oxy hóa (10 chai)
+                </p>
+                <del class="super-deal-online-delete-price">1.790.000</del>
+                <span class="super-deal-online-price"
+                  >1.432.000 <u>đ</u>/hộp</span
+                >
+                <button type="button" class="btn-choose-item">
+                  Chọn sản phẩm
+                </button>
+              </div>
+            </div>
+            <div class="super-deal-online-list-item">
+              <div class="super-deal-online-img">
+                <img
+                  src="https://production-cdn.pharmacity.io/digital/425x425/plain/e-com/images/promotion_sku_images/20250415060620-9-P18116.png?versionId=GsHzaRXD0jxur1pAMmYRuLlFxjlRDlAZ"
+                  alt=""
+                />
+              </div>
+              <div class="super-deal-online-content">
+                <p class="super-deal-online-title">
+                  Khẩu trang y tế 3 lớp màu xanh Pharmacity bảo vệ khỏi vi
+                  khuẩn, khói và bụi mịn (50 cái/hộp)
+                </p>
+                <del class="super-deal-online-delete-price"></del>
+                <span class="super-deal-online-price">59.000 <u>đ</u>/hộp</span>
+                <button type="button" class="btn-choose-item">
+                  Chọn sản phẩm
+                </button>
+              </div>
+            </div>
+            <div class="super-deal-online-list-item">
+              <div class="super-deal-online-img">
+                <img
+                  src="https://production-cdn.pharmacity.io/digital/425x425/plain/e-com/images/promotion_sku_images/20250415060620-2-P25354.png?versionId=rgoL6bqvn8kY1WwyK9ZRKxAP6BYniTzj"
+                  alt=""
+                />
+              </div>
+              <div class="super-deal-online-content">
+                <p class="super-deal-online-title">
+                  Dung Dịch nhỏ mắt VROHTO Mineral Tear giữ ẩm và bổ sung khoáng
+                  chất (Chai 13ml)
+                </p>
+                <del class="super-deal-online-delete-price">62.000 ₫</del>
+                <span class="super-deal-online-price">52.700 <u>đ</u>/hộp</span>
+                <button type="button" class="btn-choose-item">
+                  Chọn sản phẩm
+                </button>
+              </div>
+            </div>
+            <div class="super-deal-online-list-item">
+              <div class="super-deal-online-img">
+                <img
+                  src="https://production-cdn.pharmacity.io/digital/425x425/plain/e-com/images/promotion_sku_images/20250415030351-0-P23396.png?versionId=8Ig4_Vl7bBeJEO61qH.D60MRp1kWw14J"
+                  alt=""
+                />
+              </div>
+              <div class="super-deal-online-content">
+                <p class="super-deal-online-title">
+                  Tinh chất cấp ẩm, cải thiện nếp nhăn L'oreal Revitalift 1.5%
+                  Hyaluronic Acid Serum (Chai 30ml)
+                </p>
+                <del class="super-deal-online-delete-price">499.000 ₫</del>
+                <span class="super-deal-online-price"
+                  >309.000 <u>đ</u>/hộp</span
+                >
+                <button type="button" class="btn-choose-item">
+                  Chọn sản phẩm
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-      <div class="col col-lg-10 col-md-9" style="border: 1px solid red"></div>
-    </div>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="1">
+          <div>
+            <h4><strong>Về Pharmacity</strong></h4>
+          </div>
+          <div>Giới thiệu</div>
+          <div>Hệ thống cửa hàng</div>
+          <div>Giấy phép kinh doanh</div>
+          <div>Quy chế hoạt động</div>
+          <div>Chính sách đổi trả và bảo hành</div>
+          <div>Chính sách giao hàng</div>
+          <div>Chính sách bảo mật</div>
+          <div>Chính sách bảo vệ dữ liệu cá nhân</div>
+          <div>Chính sách thanh toán</div>
+          <div>Thể lệ chương trình thẻ thành viên</div>
+          <div>Câu hỏi thường gặp</div>
+          <div>Sitemap</div>
+          <div>Bệnh viện</div>
+        </div>
+        <div class="2">
+          <div>
+            <h4><strong>Danh mục</strong></h4>
+          </div>
+          <div>Thuốc</div>
+          <div>Tra cứu bệnh</div>
+          <div>Thực phẩm chức năng</div>
+          <div>Chăm sóc cá nhân</div>
+          <div>Mẹ và Bé</div>
+          <div>Chăm sóc sắc đẹp</div>
+          <div>Thiết bị y tế</div>
+          <div>Sản phẩm tiện lợi</div>
+          <div>Doanh nghiệp</div>
+          <div>Nhãn hàng Pharmacity</div>
+          <div>Khuyến mãi HOTs</div>
+          <div>Góc sức khỏe</div>
+          <div>Chăm sóc sức khỏe</div>
+        </div>
+        <div class="3">
+          <div>
+            <h4><strong>Tổng đài miễn cước</strong></h4>
+          </div>
+          <div class="infor-supportt">
+            <div>
+              <p>Hỗ trợ đặt hàng</p>
+              <a
+                rel="noopener noreferrer"
+                class="block pt-2 font-bold text-primary-500"
+                target="_blank"
+                href="tel:18006821"
+                >1800 6821<span class="pl-1 font-normal text-neutral-700"
+                  >(Nhánh 1)</span
+                ></a
+              >
+            </div>
+            <div>
+              <p>Thông tin nhà thuốc,khuyến mãi</p>
+              <a
+                rel="noopener noreferrer"
+                class="block pt-2 font-bold text-primary-500"
+                target="_blank"
+                href="tel:18006821"
+                >1800 6821<span class="pl-1 font-normal text-neutral-700"
+                  >(Nhánh 2)</span
+                ></a
+              >
+            </div>
+            <div>
+              <p>Khuyến nại,góp ý</p>
+              <a
+                rel="noopener noreferrer"
+                class="block pt-2 font-bold text-primary-500"
+                target="_blank"
+                href="tel:18006821"
+                >1800 6821<span class="pl-1 font-normal text-neutral-700"
+                  >(Nhánh 2)</span
+                ></a
+              >
+            </div>
+          </div>
+          <div>
+            <h4><strong>Ngôn ngữ</strong></h4>
+            <div class="">
+              <img src="" alt="" />
+              <span>Tiếng việt</span>
+              <span><i class="fa-regular fa-square-caret-down"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="4">
+          <div>
+            <h4><strong>Theo dõi chúng tôi trên</strong></h4>
+            <ul class="social-container">
+              <li class="social">
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  class="flex"
+                  href="https://www.facebook.com/PharmacityVN"
+                  ><img
+                    class="mr-2 w-6"
+                    src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20240706163158-0-facebook.svg"
+                    alt="facebook logo"
+                    loading="lazy"
+                    width="24"
+                    height="24"
+                  />Facebook</a
+                >
+              </li>
+              <li class="social">
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  class="flex"
+                  href="https://www.youtube.com/channel/UC34rPqjyb_WCq6dMu2khYQA"
+                  ><img
+                    class="mr-2 w-6"
+                    src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20240706163159-0-youtube.svg"
+                    alt="youtube logo"
+                    loading="lazy"
+                    width="24"
+                    height="24"
+                  />Youtube</a
+                >
+              </li>
+              <li class="social">
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  class="flex"
+                  href="https://zalo.me/1123198001548302988?src=qr"
+                  ><img
+                    class="mr-2 w-6"
+                    src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20240809162128-0-zalo.svg"
+                    alt="zalo logo"
+                    loading="lazy"
+                    width="24"
+                    height="24"
+                  />Zalo</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div>
+              <h4><strong>Chứng nhận bởi</strong></h4>
+            </div>
+            <div class="flex gap-2">
+              <a
+                rel="noopener noreferrer"
+                class="block"
+                target="_blank"
+                href="http://online.gov.vn/Home/WebDetails/36362?AspxAutoDetectCookieSupport=1"
+                ><img
+                  class=""
+                  src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20240706162441-0-BCT.png"
+                  alt="BCT"
+                  loading="lazy"
+                  width="84"
+                  height="26" /></a
+              ><a
+                rel="noopener noreferrer"
+                class="block"
+                target="_blank"
+                href="https://www.dmca.com/Protection/Status.aspx?ID=f3d2a5e8-f9a9-445f-9ce3-92a44c130b92&amp;cdnrdr=1&amp;refurl=https://www.pharmacity.vn/"
+                ><img
+                  class=""
+                  src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20240706162441-0-DMCA.png"
+                  alt="DMCA"
+                  loading="lazy"
+                  width="84"
+                  height="26"
+              /></a>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h4 class="support-pay-title">
+                <strong>Hỗ trợ thanh toán</strong>
+              </h4>
+            </div>
+            <div class="support-pay">
+              <img
+                class=""
+                src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20240706162440-0-COD.png"
+                alt="COD"
+                loading="lazy"
+                width="500"
+                height="500"
+              /><img
+                class=""
+                src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20240706162441-0-Visa.png"
+                alt="Visa"
+                loading="lazy"
+                width="500"
+                height="500"
+              /><img
+                class=""
+                src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20240706162441-0-MasterCard.png"
+                alt="MasterCard"
+                loading="lazy"
+                width="500"
+                height="500"
+              /><img
+                class=""
+                src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20240706162441-0-JCB.png"
+                alt="JCB"
+                loading="lazy"
+                width="500"
+                height="500"
+              /><img
+                class=""
+                src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20240706162441-0-Momo.png"
+                alt="Momo"
+                loading="lazy"
+                width="500"
+                height="500"
+              /><img
+                class=""
+                src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20240706162729-0-ZaloPay.png"
+                alt="ZaloPay"
+                loading="lazy"
+                width="500"
+                height="500"
+              /><img
+                class=""
+                src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20241122062454-0-napas.png"
+                alt="Napas"
+                loading="lazy"
+                width="500"
+                height="500"
+              /><img
+                class=""
+                src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20241122063240-0-apple-pay.png"
+                alt="ApplePay"
+                loading="lazy"
+                width="500"
+                height="500"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="5">
+          <h4><strong>Tải ứng dụng Pharmacity</strong></h4>
+          <div class="install-information">
+            <div class="w-[76px] md:w-[92px]">
+              <img
+                class=""
+                src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20241212091431-0-pharmacity-qr-code.webp"
+                alt="QR code"
+                loading="lazy"
+                width="76"
+                height="50"
+              />
+            </div>
+            <div class="install-chplay">
+              <a
+                rel="noopener noreferrer"
+                class="block"
+                target="_blank"
+                href="https://apps.apple.com/us/app/pharmacity-nh%C3%A0-thu%E1%BB%91c-ti%E1%BB%87n-l%E1%BB%A3i/id1414835869"
+                ><img
+                  class="object-contain"
+                  src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20240706154633-0-app-store.png"
+                  alt="Apple store"
+                  loading="lazy"
+                  width="500"
+                  height="500" /></a
+              ><a
+                rel="noopener noreferrer"
+                class="block"
+                target="_blank"
+                href="https://play.google.com/store/apps/details?id=com.pharmacity_extracare"
+                ><img
+                  class="object-contain"
+                  src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20240706154633-0-google-play.png"
+                  alt="Google play"
+                  loading="lazy"
+                  width="500"
+                  height="500"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>
+          <h4><strong>Công Ty Cổ Phần Dược Phẩm Pharmacity</strong></h4>
+        </div>
+        <div class="footer-bottom-content">
+          <div>
+            <p>
+              Trụ sở: 248A Nơ Trang Long, P.12, Q.Bình Thạnh, TP.Hồ Chí Minh
+              <br />
+              Điện thoại: 1800 6821 - Email: cskh@pharmacity.vn
+            </p>
+          </div>
+          <div>
+            <p>
+              GCNDKDN: 0311770883 do sở KH & ĐT TP.HCM cấp lần đầu ngày
+              05/05/2012 <br />
+              GCNDDKKDD: 6782/DDKKDDD-ĐNai ngày cấp 26/4/2022 Sở Y Tế Tỉnh Đồng
+              Nai.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

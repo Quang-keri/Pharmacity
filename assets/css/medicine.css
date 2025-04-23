@@ -351,7 +351,7 @@ ul {
 
 .line {
   height: 10px;
-  background-color: #dbd6c9;
+  background-color: rgba(240, 237, 237, 0.8431372549);
 }
 
 .medicine-menu {
@@ -367,6 +367,160 @@ ul {
   padding-left: 1rem;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.super-deal-online {
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.super-deal-online-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.super-deal-online-header h2 {
+  font-weight: 600;
+}
+
+.super-deal-online-content {
+  margin: 10px;
+}
+
+.super-deal-online-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  position: relative;
+}
+
+.super-deal-online-list-item {
+  width: 190px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.super-deal-online-img img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.super-deal-online-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.super-deal-online-delete-price {
+  display: block;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #a8a8a8;
+}
+
+.super-deal-online-price {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.btn-choose-item {
+  width: 150px;
+  background-color: #1a51a2;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.btn-choose-item:hover {
+  background-color: #113a76;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #ebebeb;
+  width: 100%;
+  height: auto;
+  border-top: 8px solid #1b52a2;
+  padding: 20px 30px;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 20px;
+}
+
+.support-pay-title {
+  margin-top: 10px;
+}
+
+.support-pay {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+}
+
+.install-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+}
+
+.install-chplay a img {
+  width: 120px;
+}
+
+.footer-bottom-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-container {
+  margin: 0;
+}
+
+.social {
+  padding-bottom: 16px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
 }
 
 .footer {
