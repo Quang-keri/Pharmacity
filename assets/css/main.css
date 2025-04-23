@@ -350,20 +350,6 @@ ul {
   grid-row: 1/span 2;
 }
 
-.customPrevBtn {
-  position: absolute;
-  left: 10px;
-  top: 100px;
-  z-index: 2;
-}
-
-.customNextBtn {
-  position: absolute;
-  right: 10px;
-  top: 100px;
-  z-index: 2;
-}
-
 .right-top {
   grid-column: 2;
   height: 140px;
@@ -429,6 +415,7 @@ ul {
   display: -ms-flexbox;
   display: flex;
   gap: 16px;
+  position: relative;
 }
 
 .super-deal-online-list-item {
@@ -518,6 +505,7 @@ ul {
   padding-left: 1rem;
   margin-top: 30px;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .brand-higlight-header {
@@ -533,16 +521,29 @@ ul {
   font-weight: 600;
 }
 
-.brand-higlight-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 16px;
+.customPrevBtn {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  font-size: 30px;
+  z-index: 2;
+}
+
+.customNextBtn {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  font-size: 30px;
+  z-index: 2;
 }
 
 .brand-higlight-item {
   width: 288px;
   height: 475px;
+}
+
+.brand-higlight-img img {
+  width: 288px;
 }
 
 .category-highlight {

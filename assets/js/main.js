@@ -1,3 +1,21 @@
+var sildeBrand = $(".brand-higlight-list");
+sildeBrand.owlCarousel({
+  loop: true,
+  margin: 0,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 3,
+    },
+    1000: {
+      items: 4,
+    },
+  },
+});
+
 var owl = $(".owl-carousel");
 owl.owlCarousel({
   items: 1,
@@ -8,6 +26,23 @@ owl.owlCarousel({
   autoplayHoverPause: true,
 });
 
+// var sildeBrand = $(".brand-higlight-list");
+// sildeBrand.owlCarousel({
+//   loop: true,
+//   margin: 0,
+//   nav: true,
+//   responsive: {
+//     0: {
+//       items: 1,
+//     },
+//     600: {
+//       items: 3,
+//     },
+//     1000: {
+//       items: 3,
+//     },
+//   },
+// });
 // phần này tìm trong Event của doc owlCourosel
 //https://owlcarousel2.github.io/OwlCarousel2/docs/api-events.html
 // $(".owl-prev").click(function () {
@@ -20,11 +55,18 @@ owl.owlCarousel({
 
 var owl = $(".owl-carousel");
 owl.owlCarousel();
-// Go to the next item
+var prevBtn = document.querySelector(".customPrevBtn");
+
+prevBtn.style.display = "none";
+var isPress = false;
 $(".customNextBtn").click(function () {
   owl.trigger("next.owl.carousel");
+  isPress = true;
+  if (isPress === true) {
+    prevBtn.style.display = "block";
+  }
 });
-// Go to the previous item
+
 $(".customPrevBtn").click(function () {
   // With optional speed parameter
   // Parameters has to be in square bracket '[]'
