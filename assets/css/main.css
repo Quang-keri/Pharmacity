@@ -623,6 +623,104 @@ ul {
   margin-bottom: 30px;
 }
 
+.desease-search-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.desease-search-header h2 {
+  font-weight: 600;
+}
+
+.desease-search-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.desease-search-item-img img {
+  width: 140px;
+  height: 140px;
+}
+
+.desease-search-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  border: 1px solid #ccc;
+  position: relative;
+  padding-top: 15px;
+}
+
+.desease-search-group-title {
+  font-weight: 600;
+}
+
+.desease-search-group li {
+  width: 185px;
+}
+
+.desease-search-item-icon {
+  position: absolute;
+  display: block;
+  bottom: 10px;
+  right: 5px;
+  z-index: 2;
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-color: #1f4ca2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 7px;
+}
+
+.desease-search-item-icon i {
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.desease-search-item-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0270e1;
+}
+
+.desease-search-item-content span i {
+  font-size: 5px;
+  line-height: 10px;
+}
+
+.desease-search-item-content-tiltle {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .season-disease-group {
   margin-right: 30px;
   margin-left: 30px;
