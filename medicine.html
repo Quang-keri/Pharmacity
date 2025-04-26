@@ -249,72 +249,140 @@
       <div
         class="col col-lg-2 col-md-3 d-none d-md-block medicine-content-left"
       >
-        <div>
-          <p>Bộ lọc</p>
-          <p><a href="#">Thiết lập lại</a></p>
+        <div class="medicine-content-left-top">
+          <div class="medicine-content-left-header">
+            <p>Bộ lọc</p>
+            <p><a href="#">Thiết lập lại</a></p>
+          </div>
+          <form action="#" id="medicine_form_01">
+            <div class="medicine_form_01">
+              <p>Khoảng giá</p>
+              <div class="medicine-prices">
+                <div class="price-block">
+                  <input
+                    type="text"
+                    name="min-price-medicine"
+                    class="min-price-medicine"
+                    placeholder="Tối thiểu"
+                  />
+                  <span><u>đ</u></span>
+                </div>
+                <div class="price-block">
+                  <input
+                    type="text"
+                    name="max-price-medicine"
+                    class="max-price-medicine"
+                    placeholder="Tối đa"
+                  />
+                  <span><u>đ</u></span>
+                </div>
+              </div>
+
+              <div>
+                <input
+                  type="submit"
+                  value="Áp dụng"
+                  class="medicine-aplly-btn"
+                /><br />
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="price-medicine-1"
+                  class="price-medicine"
+                  name="price-medicine"
+                  value="dưới 100000"
+                />
+                <label for="price-1">Dưới 100.000 <u>đ</u></label>
+                <br />
+
+                <input
+                  type="radio"
+                  id="price-medicine-2"
+                  class="price-medicine"
+                  name="price-medicine"
+                  value="100000-300000"
+                />
+                <label for="price-2">100.000<u>đ</u> - 300.000<u>đ</u></label>
+                <br />
+
+                <input
+                  type="radio"
+                  id="price-medicine-3"
+                  class="price-medicine"
+                  name="price-medicine"
+                  value="300000-500000"
+                />
+                <label for="price-3">300.000<u>đ</u> - 500.000<u>đ</u></label>
+                <br />
+
+                <input
+                  type="radio"
+                  id="price-medicine-5"
+                  class="price-medicine"
+                  name="price-medicine"
+                  value="trên 500000"
+                />
+                <label for="price-4">Trên 500.000<u>đ</u></label>
+              </div>
+            </div>
+          </form>
         </div>
 
-        <form action="#">
-          <p>Khoảng giá</p>
-          <input
-            type="number"
-            name="min-price-medicine"
-            class="min-price-medicine"
-            placeholder="tối thiểu"
-          />
-          <input
-            type="number"
-            name="max-price-medicine"
-            class="max-price-medicine"
-            placeholder="tối đa"
-          />
-          <input type="submit" value="Áp dụng" /><br />
-          <input
-            type="radio"
-            id="price-1"
-            name="price-medicine"
-            value="dưới 100000"
-          />
-          <label for="price-1">Dưới 100.000 <u>đ</u></label>
-          <br />
+        <div class="medicine-content-left-bottom">
+          <p class="medicine-content-left-bottom-brand">Thương hiệu</p>
+          <div>
+            <form action="#" id="medicine_form_03">
+              <input
+                type="text"
+                class="medicine-brand-name-form"
+                placeholder="Nhập tên thương hiệu"
+              />
+            </form>
+          </div>
+          <div>
+            <form action="#" id="medicine_form_03">
+              <div class="medicine-company-name-block">
+                <input
+                  type="checkbox"
+                  class="medicine-company-name"
+                  name="company_thai_nhan"
+                  value="CÔNG TY TNHH DƯỢC MỸ PHẨM THÁI NHÂN"
+                />
+                <span>CÔNG TY TNHH DƯỢC MỸ PHẨM THÁI NHÂN</span>
+              </div>
+              <div class="medicine-company-name-block">
+                <input
+                  type="checkbox"
+                  class="medicine-company-name"
+                  name="company_nam_sao"
+                  value="Công ty TNHH Dược Phẩm Quốc Tế Năm Sao"
+                />
+                <span>Công ty TNHH Dược Phẩm Quốc Tế Năm Sao</span>
+              </div>
 
-          <input
-            type="radio"
-            id="price-2"
-            name="price-medicine"
-            value="100000-300000"
-          />
-          <label for="price-2">100.000<u>đ</u> - 300.000<u>đ</u></label>
-          <br />
-
-          <input
-            type="radio"
-            id="price-3"
-            name="price-medicine"
-            value="300000-500000"
-          />
-          <label for="price-3">300.000<u>đ</u> - 500.000<u>đ</u></label>
-          <br />
-
-          <input
-            type="radio"
-            id="price-4"
-            name="price-medicine"
-            value="trên 500000"
-          />
-          <label for="price-4">Trên 500.000<u>đ</u></label>
-        </form>
-        <p>Thương hiệu</p>
-        <form action="#">
-          <input type="text" placeholder="nhập tên thương hiệu" />
-          <input type="checkbox" name="" /> CÔNG TY TNHH DƯỢC MỸ PHẨM THÁI NHÂN
-          <br />
-          <input type="checkbox" name="" /> Công ty TNHH Dược Phẩm Quốc Tế Năm
-          Sao<br />
-          <input type="checkbox" name="" /> Siu Guan<br />
-          <input type="checkbox" name="" />Abbott<br />
-          <input type="checkbox" name="" />Abbott Laboratories <br />
-        </form>
+              <div class="medicine-company-name-block">
+                <input
+                  type="checkbox"
+                  class="medicine-company-name"
+                  name="company_siu_guan"
+                  value="Siu Guan"
+                />
+                <span>Siu Guan</span>
+              </div>
+              <div class="medicine-company-name-block">
+                <input
+                  type="checkbox"
+                  class="medicine-company-name"
+                  name="company_abbott"
+                  value="Abbott"
+                />
+                <span>Abbott</span>
+              </div>
+            </form>
+          </div>
+          <p><a href="#">Xem thêm</a></p>
+        </div>
       </div>
       <div class="col col-lg-10 col-md-9 col-sm-12 medicine-content-right">
         <div>

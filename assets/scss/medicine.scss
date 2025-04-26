@@ -269,6 +269,11 @@ ul {
 //menu-medicine
 .medicine {
   margin-left: 20px;
+  margin-top: 30px;
+}
+
+.medicine h1 {
+  font-weight: 600;
 }
 
 .line {
@@ -277,7 +282,11 @@ ul {
 }
 
 .medicine-menu {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 136px);
+  gap: 16px;
+  padding-top: 16px;
+  padding-bottom: 20px;
 }
 
 .medicine-list {
@@ -289,6 +298,103 @@ ul {
   margin-bottom: 30px;
 }
 
+.medicine-content-left {
+  display: grid;
+  gap: 16px;
+}
+
+.medicine-content-left-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.medicine-content-left-header p {
+  font-size: 17px;
+  font-weight: 600;
+}
+.medicine-content-left-header p:nth-child(2) a {
+  color: #1a51a2;
+}
+
+.medicine_form_01 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px;
+}
+
+.medicine_form_01 p {
+  margin-bottom: 0;
+}
+
+.medicine-prices {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px;
+}
+
+.price-block {
+  display: flex;
+  position: relative;
+}
+
+.price-block span {
+  position: absolute;
+  right: 15px;
+  bottom: 5px;
+  color: #9f9c9cd7;
+}
+.max-price-medicine,
+.min-price-medicine {
+  width: 180px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 5px;
+}
+
+.medicine-aplly-btn {
+  width: 180px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding: 5px 0;
+  background-color: #1a51a3;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.medicine-content-left-top {
+  margin-bottom: 20px;
+}
+
+.medicine-content-left-bottom {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px;
+}
+
+.medicine-content-left-bottom-brand {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.medicine-brand-name-form {
+  width: 180px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  outline: none;
+}
+
+.medicine-company-name-block {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 //super deal online
 .super-deal-online {
   margin-right: 30px;
