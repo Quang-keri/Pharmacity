@@ -353,6 +353,10 @@ ul {
   padding: 5px;
 }
 
+.price-medicine-label {
+  color: #9a9a9a;
+}
+
 .medicine-aplly-btn {
   width: 180px;
   border-radius: 8px;
@@ -398,6 +402,10 @@ ul {
   -webkit-line-clamp: 1;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.medicine-company-name-block span {
+  color: #656161;
 }
 
 .medicine-company-name {
