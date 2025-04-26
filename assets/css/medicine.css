@@ -452,6 +452,9 @@ ul {
   font-weight: 600;
   font-size: 15px;
 }
+.medicine-aplly-btn:hover {
+  background-color: #0e3a7b;
+}
 
 .medicine-content-left-top {
   margin-bottom: 20px;
@@ -484,9 +487,45 @@ ul {
   text-overflow: ellipsis;
 }
 
+.medicine-company-name {
+  margin: 8px 0;
+}
+
+.medicine-content-right-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.medicine-content-right-header p {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.medicine-content-right-price-up-btn,
+.medicine-content-right-price-sale-btn {
+  width: 120px;
+  border: 1px solid #9a9a9a;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  color: #9a9a9a;
+  background-color: white;
+  font-weight: 600;
+}
+
+.medicine-content-right-price-up-btn:hover,
+.medicine-content-right-price-sale-btn:hover {
+  border: 1px solid #656161;
+  color: #656161;
+  cursor: pointer;
+}
+
 .super-deal-online {
-  margin-right: 30px;
-  margin-left: 30px;
   padding-right: 1rem;
   padding-left: 1rem;
   margin-top: 30px;
